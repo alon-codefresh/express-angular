@@ -5,7 +5,7 @@ steps:
     type: build
     description: codefresh example
     working_directory: ${{main_clone}}
-    image-name: aloncodefresh/express-angular-test2
+    image-name: aloncodefresh/express-angular-test3
     dockerfile: Dockerfile
     tag: hello
 
@@ -13,4 +13,4 @@ steps:
     type: push
     candidate: ${{build_project}}
     registry: dockerhub
-    tags: [ 'hello2', 'master2', lalala2 ]
+    tags: [ 'hello3', 'master3', lalala3 ]
