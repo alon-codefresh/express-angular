@@ -12,5 +12,5 @@ steps:
   push-to-dockerhub1:
     type: push
     candidate: ${{build_project}}
-    registry: docker-hub
+    registry: dockerhub
     tags: [ 'hello', 'master', lalala ]
